@@ -1,0 +1,188 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body,html{
+    height: 100%;
+    width: 100%;
+
+}
+
+.wrapper{
+    height: 100%;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+}
+.left-class{
+    height: 95%;
+    width: 50%;
+    background-color: #304463;
+    margin: 2vw 0vw;
+    margin-left: 2vw;
+    padding-left: 5vw;
+    position: relative;
+
+
+
+}
+.right-class{
+    height: 95%;
+    width: 50%;
+    background-color:white;
+    margin: 2vw 0vw;
+    margin-right: 2vw;
+    /* position: absolute; */
+
+}
+
+.fist h6{
+    padding-top: 6vw;
+    color: aliceblue;
+}
+.fist h2{
+    padding-top: 1vw;
+    color: aliceblue;
+    font-size: 2.2vw;
+
+}
+.fist p{
+    padding-top: 2vw;
+    color: aliceblue;
+    line-height: 1.5vw;
+
+}
+
+
+.second {
+    height: 15%;
+    width: 100%;
+    /* background-color: lightblue; */
+    margin-top: 3vw;
+
+
+}
+.second button{
+    margin-top: 1vw;
+    margin-left: .5vw;
+    padding: .2vw .8vw;
+    color: aliceblue;
+    background-color: #7D8ABC;
+    font-size: .8vw;
+}
+
+.third{
+    height: 8%;
+    width: 100%;
+    /* background-color: lightblue; */
+    margin-top: 3vw;
+
+
+}
+.third i {
+    
+font-size: 1.5vw;
+margin: 1vw .7vw;
+color: aliceblue;
+}
+.third h5 {
+    
+font-size: 1vw;
+margin: 1vw .7vw;
+color: aliceblue;
+}
+
+.mid-box{
+    height: 80px;
+    width:80px;
+    background-color: aqua;
+    position: relative;
+    top: 45%;
+    right: 3vw;
+    background-image: url(aa.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.row1{
+    height: 10vw;
+    width: 100%;
+    /* background-color: #7D8ABC; */
+    display: flex;
+}
+.text-box{
+    height: 90%;
+    width: 35%;
+    background-color: lawngreen;
+    background-image: url(bb.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-left: 10vw;
+
+}
+.box2{
+    height: 90%;
+    width: 20%;
+    background-color: lawngreen;
+    background-image: url(i.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-left: 3vw;
+
+}
+.row2{
+    height: 10vw;
+    width: 100%;
+    /* background-color: #7D8ABC; */
+    display: flex;
+}
+.box3{
+    height: 90%;
+    width: 20%;
+    background-color: lawngreen;
+    background-image: url(me.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-left: 17.1vw;
+
+}
+.box4{
+    height: 90%;
+    width: 20%;
+    background-color: lawngreen;
+    background-image: url(f.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-left: 3vw;
+
+}
+.row3{
+    height: 10vw;
+    width: 100%;
+    /* background-color: #7D8ABC; */
+    display: flex;
+}
+.box5{
+    height: 90%;
+    width: 35%;
+    background-color: lawngreen;
+    background-image: url(lest.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-left: 22.4vw;
+
+}
+.row4{
+    height: 3vw;
+    width: 100%;
+    /* background-color: #7D8ABC; */
+    display: flex;
+}
+.row4 i{
+    font-size: 2vw;
+    margin-left: 37vw;
+
+}
