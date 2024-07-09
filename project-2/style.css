@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: "Poppins", sans-serif; */
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.wrapper{
+    height: 130vh;
+    width: 100%;
+    background-color: #A3A3A3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home{
+    height: 90%;
+    width: 85%;
+    display: flex;
+
+}
+.left{
+    height: 100%;
+    width: 60%;
+    background-color: bisque;
+    background-image: url(bg11.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.right{
+    height: 100%;
+    width: 40%;
+    background-color: #ffff ;
+}
+.top{
+    height: 15%;
+    width: 100%;
+    /* background-color: aqua; */
+    color: #89C5FD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* margin-top: vw; */
+    font-family: "Orbitron", sans-serif;    
+    font-weight: 100;
+}
+.top h2{
+    z-index: 1;
+    position: absolute;
+
+}
+.small-box{
+    height: 45px;
+    width: 45px;
+    background-color: #D7E7F7;
+    border-radius: 50px;
+    z-index: 0;
+    position: relative;
+    top: 6.2vw;
+    left: 15vw;
+}
+.create{
+    height: 7%;
+    width: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vw;
+    
+}
+.login{
+    height: 3%;
+    width: 100%;
+    /* background-color: aquamarine; */
+    padding-left: 5vw;
+    margin-top: 2vw;
+    font-size: 1vw;
+    display: flex;
+    align-items: center;
+    color: #9D9D9D;
+}
+.login-button{
+    height: 4.5%;
+    width: 75%;
+    background-color: #F5F5F5;
+    margin-left: 5.2vw;
+    padding-left: 1vw;
+    font-size: 1vw;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+
+
+}
+.email{
+    height: 5%;
+    width: 100%;
+    /* background-color: aquamarine; */
+    padding-left: 5vw;
+    margin-top: .2vw;
+    font-size: 1vw;
+    display: flex;
+    align-items: center;
+    color: #9D9D9D;
+}
+.email-button{
+    height: 4.5%;
+    width: 75%;
+    background-color: #F5F5F5;
+    margin-left: 5.2vw;
+    padding-left: 1vw;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 1vw;
+    font-family: "Poppins", sans-serif;
+
+
+}
+.pass{
+    height: 5%;
+    width: 100%;
+    /* background-color: aquamarine; */
+    padding-left: 5vw;
+    margin-top: .2vw;
+    font-size: 1vw;
+    display: flex;
+    align-items: center;
+    color: #9D9D9D;
+}
+.pass-button{
+    height: 4.5%;
+    width: 75%;
+    background-color: #F5F5F5;
+    margin-left: 5.2vw;
+    padding-left: 1vw;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+
+}
+.pass-button i{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 11vw;
+    font-size: 1.5vw;
+    color: #A3A3A3;
+}
+
+.sign-button{
+    height: 4.6%;
+    width: 75%;
+    background-color: #71C6FF;
+    margin-left: 5.2vw;
+    margin-top: 2vw;
+    padding-left: 1vw;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 900;
+    font-family: "Poppins", sans-serif;
+
+
+}
+.text{
+    height: 7vw;
+    width: 83%;
+    /* background-color: #D7E7F7; */
+    margin-left: 4vw;
+    text-align: center;
+    font-size: 1vw;
+    padding-top: 1.5vw;
+    font-family: "Poppins", sans-serif;
+
+}
+.log-in{
+    height: 3vw;
+    width: 83%;
+    /* background-color: #D7E7F7; */
+    margin-left: 4vw;
+    padding-left: 5vw;
+    text-align: center;
+    display: flex;
+    padding-top: .5vw;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.3vw;
+
+}
+.log-in p{
+    color: #71C6FF;
+    font-weight: 700;
+    font-size: 1vw;
+    font-family: "Poppins", sans-serif;
+
+}
+.back{
+    height: 4vw;
+    width: 100%;
+    /* background-color: #9D9D9D; */
+    display: flex;
+    padding-left: 12vw;
+    margin-top: 1vw;
+    font-size: 1.2vw;
+    font-family: "Poppins", sans-serif;
+
+
+}
+.back i{
+    font-size: 3vw;
+    margin-right: 1vw;
+}
